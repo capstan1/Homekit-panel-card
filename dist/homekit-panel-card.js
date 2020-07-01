@@ -5175,7 +5175,7 @@ class HomeKitCard extends LitElement {
         touch-action: auto!important;
       }
       .button.size-2 {
-        width: calc(var(--tile-width, 100px) * 2.3);
+        width: calc(var(--tile-width, 100px) * 3);
       }
       .button.height-2 {
         height:calc(var(--tile-height, 100px) * 2.3);
@@ -5189,7 +5189,7 @@ class HomeKitCard extends LitElement {
         height: 120px;
       }
       .button.no-padding.size-2 {
-        width: calc(var(--tile-width, 100px) * 2.5);
+        width: calc(var(--tile-width, 100px) * 3.1);
       }
       .button.no-padding.height-2 {
         height:calc(var(--tile-height, 100px) * 2.5);
@@ -5240,8 +5240,8 @@ class HomeKitCard extends LitElement {
       }
 
       .button.size-2 input[type="range"] {
-        width: calc(var(--slider-width, 120px) * 2.3);
-        right: calc(50% - ((var(--slider-width, 120px) * 2.3) / 2));
+        width: calc(var(--slider-width, 120px) * 3);
+        right: calc(50% - ((var(--slider-width, 120px) * 3) / 2));
       }
 
       .button.height-2 input[type="range"] {
